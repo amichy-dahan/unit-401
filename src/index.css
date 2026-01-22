@@ -1,0 +1,44 @@
+#root {
+  margin: 0;
+  width: 100%;               /* רוחב מלא */
+  height: 100vh;             /* גובה מותאם לפי הרצון */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* background-image: url("./unit/6.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;    /* תופס כל הרוחב/גובה בלי לעוות */
+}
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  
+  
+}
+
+/* הגדלת טקסט גלובלית */
+body.large-text {
+  font-size: 3vh;
+}
+
+/* ניגודיות גבוהה גלובלית */
+body.high-contrast {
+  background-color: black;
+  color: rgb(255, 60, 0);
+}
+
+body.high-contrast button {
+  background-color: black;
+  color: rgb(255, 0, 0);
+  border: 2px solid yellow;
+}
+
+body.high-contrast a {
+  color: rgb(0, 161, 35);
+}

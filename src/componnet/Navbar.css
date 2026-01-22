@@ -1,0 +1,240 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.navbar-page{
+
+  max-width: 100%;
+  position: relative;
+
+  z-index: 20;
+ 
+ 
+   
+}
+
+.pictes{
+
+  
+}
+
+.pic1{
+  width: 15vh;
+  position: absolute;
+  right:0;
+
+
+ 
+}
+.pic2{
+  width: 15vh;
+
+
+ position: absolute;
+}
+
+
+.logo{
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width:100%;
+}
+.sec{
+  
+  width: 100%;
+  max-width: 100%;
+  flex-direction: row-reverse;
+  position: fixed;
+  margin: 0;
+  
+}
+.logo-section{
+  position: absolute;
+  width: 14%;
+  z-index: 10;
+  
+  top: -2vh;
+  background-color: white;
+
+  border: 2px solid gray;
+
+  
+}
+
+.mobile-menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  
+}
+
+
+
+.links-container{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+direction: rtl;
+  display: flex;
+  width: 100%;
+    
+    background-color: rgb(255, 255, 255);
+
+    margin-right: 0;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0); 
+    background-color: #ffffffe4
+}
+.go{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s;
+    transition: background-color 0.3s;
+    padding: 1vh;
+    width: 90%;
+    
+    text-align: center;
+    
+    font-weight:lighter;
+    font-size: 2.5vh;
+
+
+ 
+   
+    
+}
+
+.links-container .go:first-of-type {
+   border-top-right-radius: 30px;
+}
+
+.links-container .go:last-of-type {
+    border-top-left-radius: 30px;
+
+}
+.links-container .go:first-of-type:hover {
+   
+    color: #000000;
+    background-color: rgba(255, 140, 0, 0.863);
+}
+
+.links-container .go:last-of-type:hover {
+  
+     color: #000000;
+    background-color: rgba(255, 140, 0, 0.863);
+
+}
+.go:hover{
+    color: #000000;
+    background-color: rgba(255, 140, 0, 0.863);
+
+}
+
+
+
+@media (max-width: 768px) {
+  .mobile-menu-icon {
+    display: block;
+    margin: auto;
+
+    border-radius: 50%;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 8vw;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 5px black;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+   
+    
+  }
+
+  .links-container {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    background: rgb(196, 194, 194);
+    width: 200px;
+
+
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(238, 0, 0, 0.2);
+   z-index: 9999;
+    /* במקום display:none */
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0.1;
+    pointer-events: none;
+    border-radius: 10px;
+ 
+
+    /* אנימציה */
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    
+  }
+  .links-container .go:first-of-type {
+   border-top-right-radius: 1vh;
+}
+
+.links-container .go:last-of-type {
+    border-top-left-radius: 1vh;
+
+}
+
+  .links-container.open {
+    /* במקום display:flex */
+    max-height: 500px;
+    opacity: 1;
+     z-index: 9999;
+    pointer-events: auto;
+    
+  }
+
+
+
+.navbar-page{
+
+ width: 100%;
+  border: 1px solid #ccc;
+  background: rgb(255, 255, 255 ,0.1);
+    position: relative;
+  z-index: 9999;
+  border-bottom: 3px solid gray;
+
+
+}
+
+.go{
+    font-size: 5vw;
+    border:0.5vh solid white;
+    margin-top: 1vh;
+     padding: 2vh;
+     border-radius: 10px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: bold;
+
+    
+}
+.logo-section{
+    box-shadow: 2px 4px 5px rgba(238, 211, 6, 0.764);
+  width: 50%;
+}
+
+.pic1{
+  width: 10vh;
+  position: absolute;
+  right:0;
+
+}
+.pic2{
+  width: 10vh;
+ position: absolute;
+}
+}
+

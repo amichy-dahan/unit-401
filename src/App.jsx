@@ -1,0 +1,31 @@
+import AccessibilityMenu from "./componnet/AccessibilityMenu";
+import { AccessibilityProvider } from "./componnet/AccessibilityProvider";
+import Navbar from "./componnet/Navbar";
+import About from "./pages/About";
+import Home from "./pages/Home"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Worm from "./pages/Worm";
+
+
+function App() {
+  
+
+  return (
+  
+    <BrowserRouter>
+        <AccessibilityProvider>
+
+      
+          <AccessibilityMenu/>
+         <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About/>}/>
+        <Route path="/worm" element={<Worm/>}/>
+      </Routes>
+        </AccessibilityProvider>
+    </BrowserRouter>
+  )
+}
+
+export default App
