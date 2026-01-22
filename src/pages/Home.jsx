@@ -11,24 +11,7 @@ function Home() {
       <div className="pic">
         <div className={`page ${openModal ? "blur" : ""}`}>
           <img className="pic-home" src="46.png" alt="" />
-      <div className="Bs">
-
-          <div className="buttons gg">
-            <button onClick={() => setOpenModal("one")}>מלחמת ששת הימים </button>
-            <button onClick={() => setOpenModal("two")}>מלחמת ההתשה</button>
-            <button onClick={() => setOpenModal("three")}>מלחמת יום הכיפורים</button>
-          </div>
-            <div className="buttons1 gg">
-            <button onClick={() => setOpenModal("four")}>מלחמת שלום הגליל</button>
-            <button onClick={() => setOpenModal("five")}>אירועי "אינתיפאדת אל־אקצא"</button>
-            <button onClick={() => setOpenModal("six")}>מלחמת לבנון השנייה</button>
-          </div>
-            <div className="buttons2 gg">
-            <button onClick={() => setOpenModal("seven")}>מבצע "עופרת יצוקה"</button>
-            <button onClick={() => setOpenModal("hate")}>מבצע "צוק איתן"</button>
-            <button onClick={() => setOpenModal("nine")}>מלחמת חרבות ברזל</button>
-          </div>
-          </div>
+    
         </div>
       </div>
 
