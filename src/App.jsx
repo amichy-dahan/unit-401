@@ -3,7 +3,7 @@ import { AccessibilityProvider } from "./componnet/AccessibilityProvider";
 import Navbar from "./componnet/Navbar";
 import About from "./pages/About";
 import Home from "./pages/Home"
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Worm from "./pages/Worm";
 
 
@@ -12,7 +12,7 @@ function App() {
 
   return (
   
-    <BrowserRouter>
+    <HashRouter>
         <AccessibilityProvider>
 
       
@@ -24,7 +24,7 @@ function App() {
         <Route path="/worm" element={<Worm/>}/>
       </Routes>
         </AccessibilityProvider>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
