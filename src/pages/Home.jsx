@@ -2,6 +2,8 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./Home.css"
+import picLog from "../unit/46.png"
+
 function Home() {
   const [openModal, setOpenModal] = useState(null);
   return (
@@ -10,7 +12,7 @@ function Home() {
 
       <div className="pic">
         <div className={`page ${openModal ? "blur" : ""}`}>
-          <img className="pic-home" src="46.png" alt="" />
+          <img className="pic-home" src={picLog} alt="" />
     
         </div>
       </div>

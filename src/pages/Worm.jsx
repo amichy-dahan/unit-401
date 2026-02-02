@@ -2,6 +2,16 @@
 
 import { useState } from "react";
 import "./Worm.css"
+import one from "../unit/1.jpg"
+import tree from "../unit/3.jpg"
+import tow from "../unit/2.jpg"
+import fore from "../unit/4.jpg"
+import five from "../unit/5.jpg"
+import six from "../unit/6.JPG"
+import seven from "../unit/7.jpg"
+import hite from "../unit/8.jpg"
+import nine from "../unit/9.jpg"
+
 function Worm() {
       const [openModal, setOpenModal] = useState(null);
   return (
@@ -16,47 +26,47 @@ function Worm() {
 
           <div className="group-bt">
   <button className="card" onClick={() => setOpenModal("one")}>
-    <img src="1.jpg" alt="מלחמת ששת הימים" />
+    <img src={one} alt="מלחמת ששת הימים" />
     <span>מלחמת ששת הימים</span>
   </button>
 
   <button className="card" onClick={() => setOpenModal("two")}>
-    <img src="3.jpg" alt="מלחמת ההתשה" />
+    <img src={tow} alt="מלחמת ההתשה" />
     <span>מלחמת ההתשה</span>
   </button>
 
   <button className="card" onClick={() => setOpenModal("three")}>
-    <img src="2.jpg" alt="מלחמת יום הכיפורים" />
+    <img src={tree} alt="מלחמת יום הכיפורים" />
     <span>מלחמת יום הכיפורים</span>
   </button>
 
   <button className="card" onClick={() => setOpenModal("four")}>
-    <img src="4.jpg" alt="מלחמת שלום הגליל" />
+    <img src={fore} alt="מלחמת שלום הגליל" />
     <span>מלחמת שלום הגליל</span>
   </button>
 
   <button className="card" onClick={() => setOpenModal("five")}>
-    <img src="5.jpg" alt='אינתיפאדת אל־אקצא' />
+    <img src={five} alt='אינתיפאדת אל־אקצא' />
     <span>אירועי אינתיפאדת אל־אקצא</span>
   </button>
 
   <button className="card" onClick={() => setOpenModal("six")}>
-    <img src="6.JPG" alt="מלחמת לבנון השנייה" />
+    <img src={six} alt="מלחמת לבנון השנייה" />
     <span>מלחמת לבנון השנייה</span>
   </button>
 
   <button className="card" onClick={() => setOpenModal("seven")}>
-    <img src="7.jpg" alt="עופרת יצוקה" />
+    <img src={seven} alt="עופרת יצוקה" />
     <span>מבצע עופרת יצוקה</span>
   </button>
 
   <button className="card" onClick={() => setOpenModal("hate")}>
-    <img src="8.jpg" alt="צוק איתן" />
+    <img src={hite} alt="צוק איתן" />
     <span>מבצע צוק איתן</span>
   </button>
 
   <button className="card" onClick={() => setOpenModal("nine")}>
-    <img src="9.jpg" alt="חרבות ברזל" />
+    <img src={nine} alt="חרבות ברזל" />
     <span>מלחמת חרבות ברזל</span>
   </button>
 </div>
