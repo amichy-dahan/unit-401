@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./Home.css"
-import picLog from "../unit/46.png"
+import picLog from "../assets/46.png"
 
 function Home() {
   const [openModal, setOpenModal] = useState(null);

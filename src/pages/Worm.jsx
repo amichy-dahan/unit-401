@@ -2,15 +2,15 @@
 
 import { useState } from "react";
 import "./Worm.css"
-import one from "../unit/1.jpg"
-import tree from "../unit/3.jpg"
-import tow from "../unit/2.jpg"
-import fore from "../unit/4.jpg"
-import five from "../unit/5.jpg"
-import six from "../unit/6.JPG"
-import seven from "../unit/7.jpg"
-import hite from "../unit/8.jpg"
-import nine from "../unit/9.jpg"
+import one from "../assets/1.jpg"
+import tree from "../assets/3.jpg"
+import tow from "../assets/2.jpg"
+import fore from "../assets/4.jpg"
+import five from "../assets/5.jpg"
+import six from "../assets/6.JPG"
+import seven from "../assets/7.jpg"
+import hite from "../assets/8.jpg"
+import nine from "../assets/9.jpg"
 
 function Worm() {
       const [openModal, setOpenModal] = useState(null);
