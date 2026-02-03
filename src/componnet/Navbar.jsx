@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./Navbar.css";
+import pic1 from "../assets/1.png"
+import pic2 from "../assets/2.png"
 function Navbar() {
 
   const [open, setOpen] = useState(false);
@@ -32,10 +34,10 @@ function Navbar() {
   </div>
       
       <div className="c1">
-            <img className="pic1" src="2.png" alt="" />
+            <img className="pic1" src={pic2} alt="" />
       </div>
       <div className="c2">
-            <img className="pic2" src="1.png" alt="" />
+            <img className="pic2" src={pic1} alt="" />
       </div>
       
  
