@@ -17,13 +17,7 @@ function Home() {
           <img className="pic-home" src={picLog} alt="" />
 
          
-   <img
-  className="play"
-  src={play}
-  alt="סרטון"
-  style={{ cursor: "pointer" }} // חשוב שהסמן יראה שזה לחיץ
-  onClick={() => window.open(driveLink, "_blank", "noopener,noreferrer")}
-/>
+
         
       </div>
  
