@@ -3,8 +3,13 @@
   flex-wrap: wrap;
   gap: 3vh;
   justify-content: center;
-  padding: 6vh;
+
   
+}
+
+.dad{
+  margin: auto;
+  max-width: 1200px;
 }
 
 
@@ -13,11 +18,11 @@
   background: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-  width: 300px;
+  width: 35vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
+  padding: 2vh;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -80,4 +85,73 @@ direction: rtl;
 padding-top: 15vh;
 
 
+}
+/* תיקון גלילה אופקית */
+@media (max-width: 768px) {
+
+  /* מוודאים שה-body לא יגלול אופקית */
+  body, html {
+    overflow-x: hidden;
+  }
+
+  /* ה-div העליון */
+  .dad {
+    width: 100%;
+    /* padding פנימי קטן מימין ושמאל */
+    box-sizing: border-box; /* חשוב כדי שה-padding לא יוסיף לרוחב */
+    margin: auto;
+  }
+.solid{
+  width: 500px;
+  margin: auto;
+}
+  /* הגריד: שורה אחת בשורה מתחת לשנייה */
+  .iscor {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 1vh;
+    gap: 1px;
+    background-color: black;
+  }
+
+  /* כרטיסים */
+  .soldier-card {
+   width: calc(60% - 20px); /* חצי רוחב פחות ה-gap */
+    max-width:300px;
+    margin-top: 5vh;
+  }
+
+  .soldier-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  /* שדה חיפוש */
+  .find {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    padding-top: 8vh;
+  }
+
+  .inS {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .soldier-btn {
+    width: 100%;
+    font-size: 2.2vh;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .solid-name{
+    font-size: 3vh;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
 }
