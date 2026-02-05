@@ -79,6 +79,9 @@
   gap: 15px;
   margin-top: 2vh;
 }
+.t{
+  direction: rtl;
+}
 
 .buttons2 button {
   padding: 10px;
@@ -171,6 +174,28 @@
         background-size:cover;
     background-position: 70% center;
   
+}
+.modal {
+  background: rgb(255, 250, 233);
+  padding: 30px;
+  border-radius: 14px;
+  
+  max-width:80%;
+  ;
+  text-align: center;
+  border: #252424 7px solid;
+  
+  animation: pop 0.3s ease;
+  font-size: 3vh;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-modal{
+    font-size: 2.5vh;
+    margin-top: 2vh;
+    text-align: center;
+    direction: rtl;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .buttons button,
 .buttons1 button,

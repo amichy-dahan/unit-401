@@ -20,6 +20,11 @@ background-image: url(33.webp);
   
 }
 
+.btn-close{
+  padding: 1vh 4vh;
+  border-radius: 1vh;
+}
+
 button {
   padding: 0;
 }

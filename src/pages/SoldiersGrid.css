@@ -23,6 +23,7 @@
   flex-direction: column;
   align-items: center;
   padding: 2vh;
+  text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -59,7 +60,9 @@
 .inS {
   padding: 1vh;
   font-size: 20px;
-  width: 300px;
+  width: 30%;
+  margin-bottom: 3vh;
+
   border-radius: 5px;
   border: 1px solid #ccc;
   background: rgba(0,0,0,0.3); /* רקע כהה כדי שה-placeholder לבן יהיה נראה */
@@ -77,10 +80,17 @@
   box-shadow: 0 0 5px rgba(255, 9, 9, 0.8); /* זוהר כתום */
   padding: 2vh;
 }
+ .solid-name{
+    font-size: 3vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 0vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
 
 .find{
 text-align: start;
-margin-right: 150px;
+
 direction: rtl;
 padding-top: 15vh;
 
@@ -114,32 +124,39 @@ padding-top: 15vh;
     box-sizing: border-box;
     padding: 1vh;
     gap: 1px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
   }
 
   /* כרטיסים */
   .soldier-card {
-   width: calc(60% - 20px); /* חצי רוחב פחות ה-gap */
-    max-width:300px;
+   
+    width:85%;
     margin-top: 5vh;
   }
 
   .soldier-image {
     width: 100%;
-    height: 250px;
+    height: 380px;
   }
 
   /* שדה חיפוש */
   .find {
     width: 100%;
+    
     text-align: center;
     margin-right: 0;
-    padding-top: 8vh;
+    padding-top: 14vh;
   }
 
   .inS {
     width: 90%;
-    max-width: 350px;
+    max-width: 80%;
+    font-size:3vh;
+    border-radius: 20px;
+    text-align: center;
+    
+    background-color: rgba(52, 36, 6, 0.877);
+
   }
 
   .soldier-btn {
@@ -150,8 +167,9 @@ padding-top: 15vh;
   }
   .solid-name{
     font-size: 3vh;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
+    margin-top: 0vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 }
