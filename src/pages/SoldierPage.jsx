@@ -17,14 +17,19 @@ export default function SoldierPage() {
 
 
     <>
-    
+    <div className="picS">
+
+   
        <div className="soldier-page">
       <img src={soldier.image} alt={soldier.name} />
     
     </div>
-      <h1 className="text">{soldier.name}</h1>
+    <div className="container-text">
+     <h1 className="text">{soldier.name}</h1>
       <h2 className="text">{soldier.fallenText}</h2>
-
+    </div>
+ 
+ </div>
     </>
 
   );
