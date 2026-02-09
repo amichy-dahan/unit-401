@@ -21,12 +21,17 @@ export default function SoldierPage() {
 
    
        <div className="soldier-page">
-      <img src={soldier.image} alt={soldier.name} />
-    
+      <div className="im">
+        <img src={soldier.image} alt={soldier.name} />
+        </div>
+          <div className="head-text">
+               <h1 className="text">{soldier.name}</h1>
+               <h2 className="text">{soldier.fallenText}</h2>
+        </div>
     </div>
     <div className="container-text">
-     <h1 className="text">{soldier.name}</h1>
-      <h2 className="text">{soldier.fallenText}</h2>
+
+      <h4 className="text-story">{soldier.story}</h4>
     </div>
  
  </div>

@@ -8,8 +8,23 @@
 }
 
 .dad{
+
+}
+.had{
   margin: auto;
-  max-width: 1200px;
+ width: 80%;
+
+}
+.view{
+  width: 100%;
+  
+ 
+}
+.solid{
+  min-width: 100%;
+  margin: auto;
+ background-color: rgb(237, 228, 211)
+
 }
 
 
@@ -35,7 +50,7 @@
 
 .soldier-image {
   width: 100%;
-  height: 250px;
+  height: 40vh;
   background-image: url(../unit/7.jpg);
   object-fit: cover;
   border-radius: 8px;
@@ -103,6 +118,11 @@ padding-top: 15vh;
   body, html {
     overflow-x: hidden;
   }
+  .had{
+  margin: auto;
+ width: 100%;
+
+}
 
   /* ה-div העליון */
   .dad {
@@ -112,7 +132,7 @@ padding-top: 15vh;
     margin: auto;
   }
 .solid{
-  width: 500px;
+  width: 100%;
   margin: auto;
 }
   /* הגריד: שורה אחת בשורה מתחת לשנייה */
@@ -130,7 +150,7 @@ padding-top: 15vh;
   /* כרטיסים */
   .soldier-card {
    
-    width:85%;
+    width:100%;
     margin-top: 5vh;
   }
 

@@ -216,6 +216,11 @@ export default function SoldiersGrid() {
   );
   return (
 
+    <div className="had">
+
+
+  
+
       <div className="dad">
       {/* שדה חיפוש */}
 
@@ -254,5 +259,7 @@ export default function SoldiersGrid() {
         )}
       </div>
     </div>
+
+      </div>
   );
 }
