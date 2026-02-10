@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { soldiers } from "../data/soldiers"; // עוד רגע נסביר
+import { useEffect } from "react";
 import "./SoldierPage.css";
 
 export default function SoldierPage() {
@@ -8,7 +9,9 @@ export default function SoldierPage() {
   const soldier = soldiers.find(
     (s) => s.id === Number(id)
   );
-
+    useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
   if (!soldier) {
     return <p>החייל לא נמצא</p>;
   }
