@@ -236,20 +236,20 @@ direction: rtl;
 }
 
 .pic1{
-  width: 10vh;
+  width: 7vh;
   position: absolute ;
   right:auto;
-  left: 10vh;
-  bottom:-5vh;
+  left: 7vh;
+  bottom:-0vh;
 
 
 }
 .pic2{
-  width: 10vh;
+  width: 7vh;
  position: absolute;
   right:auto;
 
-  bottom:-5vh;
+  bottom:-0vh;
 }
 }
 

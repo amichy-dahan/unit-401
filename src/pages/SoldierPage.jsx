@@ -31,7 +31,11 @@ export default function SoldierPage() {
     </div>
     <div className="container-text">
 
-      <h4 className="text-story">{soldier.story}</h4>
+      <div className="text-box">
+  <p>
+    {soldier.story}
+  </p>
+</div>
     </div>
  
  </div>
