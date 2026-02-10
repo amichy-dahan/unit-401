@@ -9,9 +9,11 @@ export default function SoldierPage() {
   const soldier = soldiers.find(
     (s) => s.id === Number(id)
   );
-    useEffect(() => {
-  window.scrollTo(0, 0);
-}, []);
+ useEffect(() => {
+  setTimeout(() => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, 0);
+}, [id]);
   if (!soldier) {
     return <p>החייל לא נמצא</p>;
   }
