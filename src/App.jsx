@@ -6,6 +6,7 @@ import Home from "./pages/Home"
 import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Worm from "./pages/Worm";
 import SoldierPage from "./pages/SoldierPage";
+import Story from "./pages/Story";
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/worm" element={<Worm/>}/>
          <Route path="/soldier/:id" element={<SoldierPage/>} />
+          <Route path="/story" element={<Story/>} />
       </Routes>
         </AccessibilityProvider>
     </HashRouter>

@@ -25,7 +25,7 @@ function Navbar() {
    
     <Link onClick={() => setOpen(!open)} className="go" to="/">דף הבית</Link>
     <Link onClick={() => setOpen(!open)} className="go" to="/about">נזכור את כולם</Link>
-    <Link onClick={() => setOpen(!open)} className="go" to="/">סיפורי גבורה</Link>
+    <Link onClick={() => setOpen(!open)} className="go" to="/story">סיפורי גבורה</Link>
     <Link onClick={() => setOpen(!open)} className="go" to="/"> תמונות</Link>
     <Link onClick={() => setOpen(!open)} className="go" to="/worm">מלחמות ישראל</Link>
   
