@@ -144,7 +144,8 @@ button {
   }
   .vid{
   border-radius: 10px;
-  width: 230px;
+  width: 270px;
+  margin-left: -19px;
   height: 150px !important;
 }
   .text-box {
