@@ -23,12 +23,15 @@ background-image: url(33.webp);
   
 }
 
+
+
+
 .text-box {
   width: 100%;
   max-width: 100%;
   
   /* ❌ לא vh */
-  height: auto;
+  height: 35vh !important;
   max-height: 70svh; /* גובה חכם לאייפון */
 
   padding: 16px;
@@ -109,8 +112,10 @@ button {
 
 .vid{
   border-radius: 10px;
-  width: 400px;
-  height: 200px;
+  width: 500px;
+  height: 150px;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
 }
 
 
@@ -140,7 +145,7 @@ button {
   .vid{
   border-radius: 10px;
   width: 230px;
-  height: 150px;
+  height: 150px !important;
 }
   .text-box {
   width: 100%;

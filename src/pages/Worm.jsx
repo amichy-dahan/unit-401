@@ -166,8 +166,21 @@ function Worm() {
 לקראת סוף התמרון, כחלק ממבצע ׳מרכבות גדעון ב׳, נלחם הגדוד בעיר עזה בשכונת ריח רדואן כאשר בין משימותיו העיקריות היו פריצת ציר ׳לוצקי׳ והכנסת גדודי הנח״ל ללחימה ביעדי הקוביות. בנוסף הגן הגדוד על המל״ק והצירים הלוגיסטיים. במלחמת חרבות ברזל הגדוד שכל 9 מלוחמיו, ולוחמים נוספים מחטיבת הנח״ל שנפלו תחת פיקודו. 
 לאחר הלחימה, עבר גדוד 46 לתעסוקה מבצעית בקו לבנון.
                 </p>
-                <iframe className="vid" width="230" height="150" src="https://www.youtube.com/embed/jrXGpGmxtfc?si=if9rYG4L8w9F-0Vl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                
+              
+<iframe
+  className="vid"
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/jrXGpGmxtfc?si=if9rYG4L8w9F-0Vl&start=3&playsinline=1"
+  title="סרטון"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+  allowFullScreen
+></iframe>            
               </>
+
             )}
 
             <button className="btn-close" onClick={() => setOpenModal(null)}>סגור</button>
