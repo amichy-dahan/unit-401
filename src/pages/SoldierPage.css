@@ -74,7 +74,7 @@
     border-radius: 10px;
     padding: 5vh;
     color: white;
-    margin-left: 25vh;
+    margin-left: -55vh;
     
   }
    .text{
@@ -96,23 +96,23 @@
 
 
 
-  .text-box {
+ .text-box {
   width: 100%;
-  max-width: 180vh;   /* תשני חופשי */
-  height: 49vh;      /* זה הגובה של הקובייה */
+  max-width: 150vh; 
+  height: 49vh;
   padding: 16px;
-  overflow-y: auto;   /* גלילה פנימית */
+  overflow-y: auto;
   overflow-x: hidden;
   color: #ffffff;
   font-size: 3vh;
   border-radius: 12px;
-  background: rgba(2, 2, 2, 0.4); /* רקע לבן עם שקיפות */
+  background: rgba(2, 2, 2, 0.4);
   border: 1px solid #ddd;
   font-weight: 600;
   direction: rtl;
-  margin-left: -40vh;
-   line-height: 1.6;
-    overscroll-behavior: contain;
+  margin-left: -40vh; /* רק לדסקטופ */
+  line-height: 1.6;
+  overscroll-behavior: contain;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .text-box::-webkit-scrollbar {
@@ -242,32 +242,17 @@
   
 
  .text-box {
-  width: 100%;
-  max-width: 100%;
-  
-  /* ❌ לא vh */
-  height: auto;
-  max-height: 70svh; /* גובה חכם לאייפון */
-
-  padding: 16px;
-  overflow-y: auto;
-  overflow-x: hidden;
-
-  color: #ffffff;
-  font-size: 1.5rem;   /* במקום vh */
-  line-height: 1.6;
-
-  border-radius: 12px;
-  background: rgba(2, 2, 2, 0.8);
-  border: 1px solid #ddd;
-  font-weight: 600;
-
-  direction: rtl;
-  margin: 0 auto;
-
-  overscroll-behavior: contain;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    width: 100%;           /* או 100% */
+    max-width: 100%; 
+    height: auto;
+    max-height: 70svh;    /* גובה חכם לאייפון */
+    margin: 0 auto;       /* מרכז את הקובייה */
+    padding: 16px;
+    font-size: 1.5rem;
+    background: rgba(2, 2, 2, 0.8);
+    border-radius: 12px;
+    overflow-y: auto;
+  }
 .text-box::-webkit-scrollbar {
   width: 8px;
 }
