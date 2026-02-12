@@ -2,13 +2,13 @@
 
 import { useState } from "react";
 import "./Worm.css"
-import one from "../assets/1.jpg"
-import tree from "../assets/3.jpg"
-import tow from "../assets/2.jpg"
-import fore from "../assets/4.jpg"
-import five from "../assets/5.jpg"
-import six from "../assets/6.JPG"
-import seven from "../assets/7.jpg"
+import one from "../assets/555.jpg"
+import tree from "../assets/111.jpg"
+import tow from "../assets/222.jpg"
+import fore from "../assets/333.jpg"
+import five from "../assets/444.jpg"
+import six from "../assets/8.webp"
+import seven from "../assets/666.jpg"
 import hite from "../assets/8.jpg"
 import nine from "../assets/9.jpg"
 
