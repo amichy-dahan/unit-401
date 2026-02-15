@@ -248,7 +248,7 @@ direction: rtl;
   width: 7vh;
  position: absolute;
   right:auto;
-
+left: 0vh;
   bottom:-0vh;
 }
 }
