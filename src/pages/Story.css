@@ -1,10 +1,17 @@
 .video-wrapper {
   position: relative;
-  width: 100vh;
-  max-width:80vh;
+   width: 100%;
+  max-width: 900px;
 
   margin: 20px auto;
   padding-top: 20%; /* 16:9 */
+}
+* {
+  box-sizing: border-box;
+}
+.pic{
+  width: 100%;
+  height: auto;
 }
 
 .video-wrapper iframe {
@@ -35,12 +42,11 @@ font-size: 10vh;
 
 .videos{
   display: flex;
-   align-items: center;
+  align-items: center;
   justify-content: center;
-  height: 100vh;
   gap: 20px;
+  margin-bottom: 60px;
 }
-
 .ot{
  font-size:6vh;
   
@@ -110,9 +116,7 @@ font-size: 10vh;
 
 
 @media (max-width: 786px) {
-  .video-wrapper {
-    padding-top: 56.25%; /* 16:9 */
-  }
+
 
   .container-talash {
   display: flex;
@@ -124,7 +128,7 @@ font-size: 10vh;
 }
 .video-wrapper {
   position: relative;
-  width: 100vh;
+  width: 90%;
   max-width:80%;
   height: 30vh;
 
@@ -160,12 +164,8 @@ font-size: 6vh;
 }
 
 .videos{
-  display: flex;
   flex-direction: column;
-   align-items: center;
-  justify-content: center;
-  height: 100vh;
-  gap: 1px;
+  height: auto;
 }
 
 }
