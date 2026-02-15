@@ -1,14 +1,25 @@
-/* גלריה */
+
 .pictures{
   padding: 20px;
-  width: 80%;
-  margin: auto;
+   width: 100%;
+  max-width: 1200px;
+  margin: 5vh auto;
+  
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
   justify-content: center;
   align-items: center;
-  margin-top: 10vh;
+
+  gap: 10px;
+  
+}
+
+.head-con{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin: 5vh auto;
 }
 
 .gallery-image{
@@ -23,7 +34,7 @@
   transform: scale(1.1);
 }
 
-.modal {
+.modal1 {
   position: fixed;
   top: 0;
   

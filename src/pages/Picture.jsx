@@ -40,6 +40,7 @@ const nextImage = (e) => {
 
   return (
     <>
+
       <div className="pictures">
         {images.map((image, index) => (
           <img
@@ -53,7 +54,7 @@ const nextImage = (e) => {
       </div>
 
     {selected && (
-  <div className="modal" onClick={() => setSelectedIndex(null)}>
+  <div className="modal1" onClick={() => setSelectedIndex(null)}>
     <div className="modal-content">
       <button className="close-btn" onClick={() => setSelectedIndex(null)}>✕</button>
       <button className="arrow left" onClick={prevImage}>❮</button>
