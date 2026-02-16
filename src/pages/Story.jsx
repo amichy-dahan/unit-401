@@ -28,9 +28,7 @@ function Story() {
     <>
       <div className="pic">
 
-        <div className="pic-tank">
- <img className="tank1" src={tank} alt="" />
-        </div>
+    
        
         <h1 className="gvur">סיפורי גבורה</h1>
     <div className="videos">

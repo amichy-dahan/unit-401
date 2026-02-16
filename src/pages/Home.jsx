@@ -17,7 +17,7 @@ function Home() {
        
           <img className="pic-home" src={picLog} alt="" />
  <div  className="container">
-      
+        <h2 >מורשת </h2>
       </div>
         
       </div>
