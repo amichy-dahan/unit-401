@@ -12,6 +12,18 @@
 .pic{
   width: 100%;
   height: auto;
+  text-align: center;
+}
+
+
+.map{
+
+
+width: 100%;
+}
+
+.map-g{
+  width: 70%;
 }
 
 .video-wrapper iframe {
@@ -138,6 +150,10 @@ font-size: 8svh;
 
   margin: 20px auto;
   padding-top: 20%; /* 16:9 */
+}
+
+.map-g{
+  width: 100%;
 }
   
 

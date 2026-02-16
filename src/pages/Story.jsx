@@ -20,6 +20,8 @@ import img12 from "../assets/tlas/12.png";
 import img13 from "../assets/tlas/13.png";
 import img14 from "../assets/tlas/14.png";
 
+import map from "../assets/map.png"
+
 function Story() {
 
     const images = [img1, img2, img3 , img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14];
@@ -48,8 +50,13 @@ function Story() {
           
           <iframe width="560" height="315" src="https://www.youtube.com/embed/aPmuMD7fLmo?si=AOvVovgWAbqjgUcS?start=3&playsinline=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-
+  
     </div>
+
+
+     <div className="map">
+      <img className="map-g" src={map} alt="" />
+   </div>
             <div className="ot">צל"שים</div>
       </div>
 
