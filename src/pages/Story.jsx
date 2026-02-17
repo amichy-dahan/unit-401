@@ -20,6 +20,8 @@ import img12 from "../assets/tlas/12.png";
 import img13 from "../assets/tlas/13.png";
 import img14 from "../assets/tlas/14.png";
 
+import kikar from "../assets/kikar.png"
+
 import map from "../assets/map.png"
 
 function Story() {
@@ -49,6 +51,15 @@ function Story() {
         <div className="video-wrapper">
           
           <iframe width="560" height="315" src="https://www.youtube.com/embed/aPmuMD7fLmo?si=AOvVovgWAbqjgUcS?start=3&playsinline=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div className="kikar-video"  onClick={() =>
+    window.open(
+      "https://drive.google.com/file/d/19EVbfiVMxANKkx4uQulxWGSv0aB8Ecf-/preview",
+      "_blank"
+    )
+  }>
+          <img className="kikar" src={kikar} alt="" />
         </div>
   
     </div>

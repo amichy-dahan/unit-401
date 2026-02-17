@@ -144,7 +144,7 @@ button {
   }
   .vid{
   border-radius: 10px;
-  width: 200px;
+  width: 250px;
   
   height: 150px !important;
 }
@@ -156,7 +156,7 @@ button {
   height: 40vh !important;
   max-height: 40svh; /* גובה חכם לאייפון */
 
-  padding: 16px;
+  padding: 1px !important;
   overflow-y: auto;
   overflow-x: hidden;
 

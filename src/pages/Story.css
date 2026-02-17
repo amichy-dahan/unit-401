@@ -2,7 +2,7 @@
   position: relative;
    width: 100%;
   max-width: 900px;
-
+ 
   margin: 20px auto;
   padding-top: 20%; /* 16:9 */
 }
@@ -24,6 +24,17 @@ width: 100%;
 
 .map-g{
   width: 70%;
+}
+
+.kikar{
+   width:70vh;
+    height:43.5vh; 
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+kikar-video{
+  cursor: pointer;
 }
 
 .video-wrapper iframe {
@@ -58,6 +69,7 @@ font-size: 8svh;
   align-items: center;
   justify-content: center;
   gap: 20px;
+
   margin-bottom: 60px;
 }
 .ot{
@@ -132,7 +144,14 @@ font-size: 8svh;
 
 
 @media (max-width: 786px) {
+.kikar{
+   width:100%;
+   height:30vh;
+}
 
+.kikar-video{
+  width:100%; 
+}
 
   .container-talash {
   display: flex;
@@ -144,11 +163,11 @@ font-size: 8svh;
 }
 .video-wrapper {
   position: relative;
-  width: 90%;
-  max-width:80%;
+  width: 100%;
+  max-width:100%;
   height: 30vh;
-
-  margin: 20px auto;
+  
+  margin: 0px;
   padding-top: 20%; /* 16:9 */
 }
 
@@ -186,6 +205,7 @@ font-size: 6vh;
 .videos{
   flex-direction: column;
   height: auto;
+
 }
 
 }
