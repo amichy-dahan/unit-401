@@ -11,9 +11,11 @@ import six from "../assets/8.webp"
 import seven from "../assets/666.jpg"
 import hite from "../assets/8.jpg"
 import nine from "../assets/9.jpg"
+import map from "../assets/map.png"
 
 function Worm() {
   const [openModal, setOpenModal] = useState(null);
+   const [open, setOpen] = useState(false);
   return (
     <>
 
@@ -180,6 +182,19 @@ function Worm() {
             {openModal === "nine" && (
               <>
                 <h3 className="t">(2025-2023)<br></br> חרבות ברזל</h3>
+                     <button className="btn-h" onClick={() => setOpen(true)}>
+        מפת חרבות ברזל 
+      </button>
+
+      {open && (
+        <div className="overlay" onClick={() => setOpen(false)}>
+          <img
+            src={map}
+            alt="preview"
+            className="full-image"
+          />
+        </div>
+      )}
                 <p className="text-box">
                   גדוד 46 תמרן בעומק רצועת עזה החל מה-27.10.2023 ועד 16.10.2025.
                   בתאריך ה-07.10.2023 לחמו מפקדי הגדוד ביישובי העוטף ובמקביל להם יצאה פלוגה א׳ על גבי זחלים ממחנה נחשונים ועד לעוטף עזה. בתחילת הלחימה, הגדוד הוביל את מתקפת חטיבת ׳עקבות הברזל׳, בין משימותיו הראשונות של הגדוד היו כיבוש מוצב הספינה, מוצב באדר וכיתור מ״פ שאטי.

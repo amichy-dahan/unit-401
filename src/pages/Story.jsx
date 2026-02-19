@@ -65,9 +65,7 @@ function Story() {
     </div>
 
 
-     <div className="map">
-      <img className="map-g" src={map} alt="" />
-   </div>
+    
             <div className="ot">צל"שים</div>
       </div>
 

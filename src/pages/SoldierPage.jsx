@@ -34,9 +34,19 @@ export default function SoldierPage() {
                <h2 className="text">{soldier.fallenText}</h2>
         </div>
     </div>
-    <div className="container-text">
-
-      <div className="text-box">
+    <div className={`container-text ${soldier.video ? "with-video" : ""}`}>
+         {soldier.video && (
+        <div className="video-wrapper11">
+          <iframe
+            src={soldier.video}
+            title="Video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      )}
+      <div className="text-box"> 
   <p>
     {soldier.story}
   </p>
@@ -48,3 +58,9 @@ export default function SoldierPage() {
 
   );
 }
+
+
+
+
+
+
