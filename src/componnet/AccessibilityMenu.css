@@ -1,7 +1,8 @@
+/* כפתור */
 .accessibility-btn {
   position: fixed;
-  top: 50%;
-  right: 0;
+  top: 30%;
+  left: 0;
   transform: translateY(-50%);
   background: #222;
   color: white;
@@ -9,23 +10,29 @@
   padding: 14px;
   font-size: 20px;
   cursor: pointer;
-  border-radius: 12px 0 0 12px;
+  border-radius: 0 12px 12px 0;
   z-index: 1000;
 }
 
+/* תפריט */
 .accessibility-menu {
   position: fixed;
-  top: 50%;
-  right: -240px;
+  top: 30%;
+  left: -240px; /* מוסתר */
   transform: translateY(-50%);
   width: 240px;
   background: white;
   padding: 16px;
-  border-radius: 12px 0 0 12px;
-  box-shadow: -6px 0 15px rgba(0, 0, 0, 0.15);
-  transition: right 0.3s ease;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 6px 0 15px rgba(0,0,0,0.15);
+  transition: left 0.3s ease; /* חשוב מאוד */
   z-index: 999;
 }
+
+.accessibility-menu.open {
+  left: 0; /* נפתח */
+}
+
 
 .accessibility-menu.open {
   right: 0;
@@ -46,30 +53,31 @@
 
 /* כפתור */
 .accessibility-btn {
-  position: fixed;
-  top: 50%;
-  right: 0;
+ position: fixed;
+  top: 30%;
+  left: 0;        /* במקום right */
+  /* right: 0;  ❌ למחוק */
   transform: translateY(-50%);
   background: #222;
   color: white;
   border: none;
-  padding: 14px;
-  font-size: 20px;
+  padding: 4px;
+  font-size: 30px;
   cursor: pointer;
-  border-radius: 12px 0 0 12px;
+  border-radius: 0 12px 12px 0; /* גם לשנות כיוון עיגול */
   z-index: 1000;
 }
 
 /* תפריט */
 .accessibility-menu {
   position: fixed;
-  top: 50%;
-  right: -240px;
+  top: 30%;
+  left: -240px;
   transform: translateY(-50%);
   width: 240px;
   background: white;
   padding: 16px;
-  border-radius: 12px 0 0 12px;
+  border-radius: 0px 12px 12px 0px;
   box-shadow: -6px 0 15px rgba(0,0,0,0.15);
   transition: right 0.3s ease;
   z-index: 999;
@@ -77,6 +85,7 @@
 
 .accessibility-menu.open {
   right: 0;
+  direction: rtl;
 }
 
 /* נגישות */
@@ -92,4 +101,13 @@
 .accessibility-root {
   width: 100%;
   min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+.accessibility-btn {
+  top: 15%;
+  padding: 4px;
+  font-size: 18px;
+
+}
 }
