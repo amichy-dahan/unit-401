@@ -9,6 +9,9 @@
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
+
+
+
 .overlay {
   position: fixed;
   inset: 0;                 /* תופס את כל המסך */

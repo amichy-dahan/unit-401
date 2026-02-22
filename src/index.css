@@ -23,10 +23,28 @@ html, body {
 }
 
 /* הגדלת טקסט גלובלית */
+
+
 body.large-text {
-  font-size: 3vh;
+  font-size: 3vh; /* הגודל הבסיסי של כל הטקסט באתר */
 }
 
+
+body.large-text h2{
+
+  font-size: 4vh; /* הגדלת כותרות H2 */
+}
+body.large-text h3,
+body.large-text h4,
+body.large-text h5,
+body.large-text h6,
+body.large-text p,
+body.large-text span,
+body.large-text a,
+body.large-text li,
+body.large-text button {
+  font-size: 1em; /* או גדל את זה יותר לפי הצורך */
+}
 /* ניגודיות גבוהה גלובלית */
 body.high-contrast {
   background-color: black;

@@ -90,7 +90,7 @@
 
 /* נגישות */
 .large-text {
-  font-size: 1.2em;
+  font-size: 2.2em;
 }
 
 .high-contrast {
@@ -107,7 +107,7 @@
 .accessibility-btn {
   top: 15%;
   padding: 4px;
-  font-size: 18px;
+  font-size: 22px;
 
 }
 }
