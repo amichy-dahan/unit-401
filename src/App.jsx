@@ -8,6 +8,7 @@ import Worm from "./pages/Worm";
 import SoldierPage from "./pages/SoldierPage";
 import Story from "./pages/Story";
 import Picture from "./pages/Picture";
+import SoldierDetails from "./pages/SoldierDetails";
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/worm" element={<Worm/>}/>
          <Route path="/soldier/:id" element={<SoldierPage/>} />
+         <Route path="/soldiert/:id" element={<SoldierDetails/>} />
           <Route path="/story" element={<Story/>} />
           <Route path="/picture" element={<Picture/>} />
       </Routes>
