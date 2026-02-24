@@ -16,7 +16,7 @@ import map from "../assets/map.png"
 function Worm() {
   const [openModal, setOpenModal] = useState(null);
    const [open, setOpen] = useState(false);
-const defaultFontSize = 25;
+const defaultFontSize = 17;
 const [fontSize, setFontSize] = useState(defaultFontSize);
    
 
