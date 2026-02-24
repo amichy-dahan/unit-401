@@ -18,12 +18,12 @@ function Home() {
        
           <img className="pic-home" src={picLog} alt="" />
  <div  className="container">
-        <h2 >מורשת </h2>
+        <h2 >מורשת הגדוד </h2>
       </div>
         
       </div>
 
-      <img className="tank" src={tank} alt="" />
+
 
       <div className="cont">
        

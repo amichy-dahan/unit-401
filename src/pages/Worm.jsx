@@ -243,9 +243,15 @@ const resetFont = () => {
   <button onClick={resetFont}>🔄</button>
 </div>
                 <h3 className="t" style={{ fontSize: fontSize + 4 }}>(2025-2023)<br></br> חרבות ברזל</h3>
-                     <button className="btn-h" onClick={() => setOpen(true)}>
-        מפת חרבות ברזל 
-      </button>
+                  
+       
+          <img
+            src={map}
+            alt="preview"
+            className="full-image-click"
+            onClick={() => setOpen(true)}
+          />
+
 
       {open && (
         <div className="overlay" onClick={() => setOpen(false)}>

@@ -161,6 +161,15 @@ button {
   margin-top: 1vh;
   margin-bottom: 3vh;
 }
+.full-image-click{
+  cursor: zoom-in;
+  width: 200px;
+  margin-bottom: -4vh;
+}
+.full-image-click:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
 
 
 
@@ -249,6 +258,8 @@ button {
   border-radius: 10px;
   
 }
+
+
 
 
 
