@@ -183,6 +183,7 @@
     .soldier-page{
     margin-top: 90px; /* במקום 9vh */
   display: flex;
+  margin-bottom: 100px;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
