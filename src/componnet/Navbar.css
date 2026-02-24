@@ -90,7 +90,8 @@ direction: rtl;
 }
 .go{
     text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
     color: rgb(0, 0, 0);
     transition: color 0.3s;
     transition: background-color 0.3s;
@@ -99,7 +100,7 @@ direction: rtl;
     
     text-align: center;
     
-    font-weight:lighter;
+    
     font-size: 2.5vh;
 
 
@@ -118,19 +119,19 @@ direction: rtl;
 }
 .links-container .go:first-of-type:hover {
    
-    color: #000000;
-    background-color: rgba(255, 140, 0, 0.863);
+    color: #ffffff;
+    background-color: rgba(52, 36, 6, 0.877);
 }
 
 .links-container .go:last-of-type:hover {
   
-     color: #000000;
-    background-color: rgba(255, 140, 0, 0.863);
+     color: #fdfdfd;
+    background-color: rgba(52, 36, 6, 0.877);
 
 }
 .go:hover{
-    color: #000000;
-    background-color: rgba(255, 140, 0, 0.863);
+    color: #fcfcfc;
+    background-color: rgba(52, 36, 6, 0.877);
 
 }
 
@@ -168,12 +169,10 @@ direction: rtl;
     position: fixed;
     top: 60px;
     right: 0;
-    background: rgb(196, 194, 194);
-    width: 200px;
-
-
+    background: rgb(255, 255, 255 , 0.1);
+    width: 70%;
     flex-direction: column;
-    padding: 15px;
+    padding: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
    z-index: 9999;
     /* במקום display:none */
@@ -189,11 +188,11 @@ direction: rtl;
     
   }
   .links-container .go:first-of-type {
-   border-top-right-radius: 1vh;
+   border-top-right-radius: 0vh;
 }
 
 .links-container .go:last-of-type {
-    border-top-left-radius: 1vh;
+    border-top-left-radius: 0vh;
 
 }
 
@@ -225,7 +224,9 @@ direction: rtl;
     border:0.2vh solid white;
     margin-top: 1vh;
      padding: 1vh;
-     border-radius: 10px;
+     width: 100%;
+     background-color: antiquewhite;
+     border-radius: 0px;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      font-weight: 500;
 
@@ -241,7 +242,7 @@ direction: rtl;
   position: absolute ;
   right:auto;
   left: 6vh;
-  bottom:-0.5vh;
+  bottom:-1.7vh;
 
 
 }
@@ -250,7 +251,7 @@ direction: rtl;
  position: absolute;
   right:auto;
 left: 0vh;
-  bottom:-0vh;
+  bottom:-1.7vh;
 }
 }
 

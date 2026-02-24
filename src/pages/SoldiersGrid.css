@@ -30,7 +30,7 @@
 
 
 .soldier-card {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(52, 36, 6, 0.2);
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   width: 30vh;
@@ -61,7 +61,7 @@
 .soldier-btn {
   margin-top: auto;
   text-decoration: none;
-  background-color: #be1515;
+  background-color: rgba(52, 36, 6, 0.877);
   color: white;
   font-size: 2.5vh;
   padding: 8px 12px;
@@ -71,7 +71,7 @@
 }
 
 .soldier-btn:hover {
-  background-color: #ff6600;
+  background-color: #787675;
 }
 .inS {
   padding: 1vh;
