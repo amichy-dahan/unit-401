@@ -39,7 +39,7 @@ function Navbar() {
       <div className="c2">
             <img className="pic2" src={pic1} alt="" />
       </div>
-      
+
  
 </nav>
   </div>

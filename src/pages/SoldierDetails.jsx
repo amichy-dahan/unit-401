@@ -18,8 +18,8 @@ function SoldierDetails() {
             <div className="imt">
                 <img className="image-tzalash" src={soldier.image} alt={soldier.name} />
             </div>
-            <div>
-                <h1 className="text-t">{soldier.story}</h1>
+            <div className="dad-text">
+                <span className="text-t">{soldier.story}</span>
             </div>
 
         </div>

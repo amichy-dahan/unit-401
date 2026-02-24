@@ -12,13 +12,29 @@ export default function AccessibilityMenu() {
   return (
     <>
       {/* כפתור */}
+      
       <button
         className="accessibility-btn"
         onClick={() => setOpen(!open)}
         aria-label="נגישות"
       >
         ♿
+
+               <div className="inst">
+        <a
+  href="https://www.instagram.com/gdud46"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+    alt="Instagram"
+    width="30"
+  />
+</a>
+    </div>
       </button>
+   
 
       {/* תפריט */}
      <div className={`accessibility-menu ${open ? "open" : ""}`}>

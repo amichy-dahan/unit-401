@@ -92,15 +92,17 @@ font-size:80px;
   justify-content: center;
   align-items: center;
   width: 80%;
-  
+
   padding: 40px;
 }
+
 
 .button-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  
 }
 
 .image-button {

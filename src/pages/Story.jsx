@@ -52,7 +52,7 @@ function Story() {
 
 
     
-            <div className="ot">צל"שים</div>
+            <div className="ot">בעלי העיטורים בגדוד</div>
       </div>
 
 
