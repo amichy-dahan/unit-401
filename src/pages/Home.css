@@ -12,7 +12,7 @@ linear-gradient(
   rgb(237, 228, 211) 100%
 ),
 url(../unit/500.jpg);
-      background-position: center;
+      background-position: center -200px;
   background-repeat: no-repeat;
   background-size: cover;    /* תופס כל הרוחב/גובה בלי לעוות */
 }
@@ -297,7 +297,7 @@ margin: auto;
     height: 100%;
   
         background-size:cover;
-    background-position: 70% center;
+    background-position: 70% -450px;
   
 }
 .modal {

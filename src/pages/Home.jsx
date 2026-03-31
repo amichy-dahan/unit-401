@@ -19,11 +19,32 @@ function Home() {
           <img className="pic-home" src={picLog} alt="" />
  <div  className="container">
         <h2 >מורשת הגדוד </h2>
+    
       </div>
-        
-      </div>
+              <div className="videos">
+
+   <div className="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/tgB2rTB8VL4?si=9nZ1eSWKEUUuQQRh?start=3&playsinline=1"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
 
 
+        <div className="video-wrapper">
+          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/as99zqzSbgQ?si=TQ2hpgI31wSjgnUn?start=3&playsinline=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+      
+  
+    </div>
+      </div>
+
+  
 
       <div className="cont">
        
