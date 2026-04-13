@@ -12,9 +12,17 @@ linear-gradient(
   rgb(237, 228, 211) 100%
 ),
 url(../unit/500.jpg);
-      background-position: center -200px;
+      background-position: center -900px;
   background-repeat: no-repeat;
   background-size: cover;    /* תופס כל הרוחב/גובה בלי לעוות */
+}
+
+.videos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  gap: 20px;
 }
 
 .video-wrapper {
@@ -297,7 +305,7 @@ margin: auto;
     height: 100%;
   
         background-size:cover;
-    background-position: 70% -450px;
+    background-position: 60% -950px;
   
 }
 .modal {
@@ -344,5 +352,12 @@ margin: auto;
 .gg{
     display: flex;
     flex-direction: column;
+}
+.videos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 }

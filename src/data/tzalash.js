@@ -14,8 +14,8 @@ import img13 from "../assets/tlas/13.png";
 import img14 from "../assets/tlas/14.png";
 import img15 from "../assets/tlas/15.png";
 import img16 from "../assets/tlas/16.png";
-import img17 from "../assets/tlas/17.png";
-import img18 from "../assets/tlas/18.png";
+import img17 from "../assets/tlas/18.png";
+import img18 from "../assets/tlas/55.png";
 
 export const tzalashSoliders = [
     { id: 1, story: ` ביום ה-5 ביוני 1967, בקרב על רפיח, פרץ סמל שלום נסים עם הטנק שלו והסתער על האויב, למרות שהיו לו מעצורים בכלי הנשק. תוך כדי הקרב סיכן את עצמו בחלצו צוות, שנפגע מטנק אויב. לאחר מכן חילץ סמל שלום נסים פצוע, וטיפל בו עד שהצליח לפנותו. בכך הציל את חייו. על מעשה זה הוענק לו : עיטור המופת ניסן תשל"ג אפריל 1973, דוד אלעזר, רב אלוף, ראש המטה הכללי`, image: img1 },
